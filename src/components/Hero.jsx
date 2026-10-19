@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Intro from './Intro'
 function Hero() {
   const [stars, setStars] = useState(0);
   const [downloads, setDownloads] = useState(0);
@@ -24,11 +25,7 @@ function Hero() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#FFF9F2] text-[#800020]">
-    <header className="px-20 pt-8 text-center">
-        <h2 className="text-7xl font-bold">Build pages faster.</h2>
-        <p className="mt-5 text-2xl text-[#000000]">An open-source component kit for React.</p>
-        <p className="mt-2 text-xl text-[#000000]">Made by Ethan James L. Saranza</p>
-    </header>
+    <Intro author="Ethan James L. Saranza" />
 
     <div className="flex justify-center gap-4 py-6">
         <button
