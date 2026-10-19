@@ -26,7 +26,7 @@ function Hero() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-[#FFF9F2] text-[#800020]">
+    <div className="flex flex-col bg-[#FFF9F2] text-[#800020]">
     <Intro author="Ethan James L. Saranza" />
 
     <div className="flex justify-center gap-4 py-6">
