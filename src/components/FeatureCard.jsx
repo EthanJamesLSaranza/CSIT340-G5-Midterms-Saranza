@@ -1,6 +1,6 @@
 function FeatureCard({tag, title, description}) {
   return (
-    <div className="w-48 rounded-xl bg-[#F3E6D5] py-4 text-center">
+    <div className="rounded-xl bg-[#F3E6D5] p-6">
       <span className="rounded-full bg-[#800020] px-4 py-1 text-base font-bold text-[#FFF9F2]">
         {tag}
       </span>
